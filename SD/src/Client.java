@@ -14,6 +14,10 @@ public class Client {
 			
 			
 			ClientOutput co = new ClientOutput(menu);
+			ClientInput ci 	= new ClientInput(menu);
+			
+			co.start();
+			ci.start();
 			
 			
 			
